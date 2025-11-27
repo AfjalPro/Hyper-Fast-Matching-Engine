@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\risk_engine.dir/objects.a
+C:\w64devkit\bin\ar.exe qc CMakeFiles\risk_engine.dir/objects.a @CMakeFiles\risk_engine.dir\objects1.rsp
+C:\w64devkit\bin\c++.exe -shared -o risk_engine.cp312-win_amd64.pyd -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\risk_engine.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\risk_engine.dir\linkLibs.rsp

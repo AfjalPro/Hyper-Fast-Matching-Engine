@@ -62,11 +62,11 @@ CMAKE_BINARY_DIR = D:\side\Hyper-Fast-Matching-Engine\DistributedRisk\build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/RiskEngineExec.dir/all
+all: CMakeFiles/risk_engine.dir/all
 .PHONY : all
 
 # The main recursive "codegen" target.
-codegen: CMakeFiles/RiskEngineExec.dir/codegen
+codegen: CMakeFiles/risk_engine.dir/codegen
 .PHONY : codegen
 
 # The main recursive "preinstall" target.
@@ -74,40 +74,40 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/RiskEngineExec.dir/clean
+clean: CMakeFiles/risk_engine.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/RiskEngineExec.dir
+# Target rules for target CMakeFiles/risk_engine.dir
 
 # All Build rule for target.
-CMakeFiles/RiskEngineExec.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RiskEngineExec.dir\build.make CMakeFiles/RiskEngineExec.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RiskEngineExec.dir\build.make CMakeFiles/RiskEngineExec.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\side\Hyper-Fast-Matching-Engine\DistributedRisk\build\CMakeFiles --progress-num=1,2 "Built target RiskEngineExec"
-.PHONY : CMakeFiles/RiskEngineExec.dir/all
+CMakeFiles/risk_engine.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\risk_engine.dir\build.make CMakeFiles/risk_engine.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\risk_engine.dir\build.make CMakeFiles/risk_engine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\side\Hyper-Fast-Matching-Engine\DistributedRisk\build\CMakeFiles --progress-num=1,2 "Built target risk_engine"
+.PHONY : CMakeFiles/risk_engine.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/RiskEngineExec.dir/rule: cmake_check_build_system
+CMakeFiles/risk_engine.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\side\Hyper-Fast-Matching-Engine\DistributedRisk\build\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/RiskEngineExec.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/risk_engine.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\side\Hyper-Fast-Matching-Engine\DistributedRisk\build\CMakeFiles 0
-.PHONY : CMakeFiles/RiskEngineExec.dir/rule
+.PHONY : CMakeFiles/risk_engine.dir/rule
 
 # Convenience name for target.
-RiskEngineExec: CMakeFiles/RiskEngineExec.dir/rule
-.PHONY : RiskEngineExec
+risk_engine: CMakeFiles/risk_engine.dir/rule
+.PHONY : risk_engine
 
 # codegen rule for target.
-CMakeFiles/RiskEngineExec.dir/codegen:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RiskEngineExec.dir\build.make CMakeFiles/RiskEngineExec.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\side\Hyper-Fast-Matching-Engine\DistributedRisk\build\CMakeFiles --progress-num=1,2 "Finished codegen for target RiskEngineExec"
-.PHONY : CMakeFiles/RiskEngineExec.dir/codegen
+CMakeFiles/risk_engine.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\risk_engine.dir\build.make CMakeFiles/risk_engine.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=D:\side\Hyper-Fast-Matching-Engine\DistributedRisk\build\CMakeFiles --progress-num=1,2 "Finished codegen for target risk_engine"
+.PHONY : CMakeFiles/risk_engine.dir/codegen
 
 # clean rule for target.
-CMakeFiles/RiskEngineExec.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RiskEngineExec.dir\build.make CMakeFiles/RiskEngineExec.dir/clean
-.PHONY : CMakeFiles/RiskEngineExec.dir/clean
+CMakeFiles/risk_engine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\risk_engine.dir\build.make CMakeFiles/risk_engine.dir/clean
+.PHONY : CMakeFiles/risk_engine.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

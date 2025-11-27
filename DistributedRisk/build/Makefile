@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named RiskEngineExec
+# Target rules for targets named risk_engine
 
 # Build rule for target.
-RiskEngineExec: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 RiskEngineExec
-.PHONY : RiskEngineExec
+risk_engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 risk_engine
+.PHONY : risk_engine
 
 # fast build rule for target.
-RiskEngineExec/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RiskEngineExec.dir\build.make CMakeFiles/RiskEngineExec.dir/build
-.PHONY : RiskEngineExec/fast
+risk_engine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\risk_engine.dir\build.make CMakeFiles/risk_engine.dir/build
+.PHONY : risk_engine/fast
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RiskEngineExec.dir\build.make CMakeFiles/RiskEngineExec.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\risk_engine.dir\build.make CMakeFiles/risk_engine.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -141,7 +141,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RiskEngineExec.dir\build.make CMakeFiles/RiskEngineExec.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\risk_engine.dir\build.make CMakeFiles/risk_engine.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -149,7 +149,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\RiskEngineExec.dir\build.make CMakeFiles/RiskEngineExec.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\risk_engine.dir\build.make CMakeFiles/risk_engine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -160,7 +160,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... RiskEngineExec
+	@echo ... risk_engine
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
